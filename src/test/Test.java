@@ -9,6 +9,7 @@ public class Test {
 		String word="LOGGER";
 		String rooot="C:\\wgit_pyme1\\webpymes\\pyme_2_0\\pyme-backend";
 		System.out.println("branch");
+		System.out.println("feature f1");
 		try {
 			r.listFiles(rooot, word);
 		} catch (Exception e) {
